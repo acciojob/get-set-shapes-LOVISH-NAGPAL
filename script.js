@@ -4,11 +4,12 @@ constructor(width,height){
 this._width=width
 	this._height=height
 }
-	get width(width){
+	get width(){
 		return this._width
 	}
-	get height(height){
+	get height(){
 		return this._height
+	}
 	getArea(){
 		return this._width*this._height
 	}
